@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.progress-bar{
+  width : 80vw;
+  height: 20px;
+  background-color: lightgray; 
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.progress{
+  background-color: red;
+  height: 100%;
+}
+
+.progress-digits{
+  position: absolute; 
+  left: 50%;
+  transform: translate(-50%);
+}
